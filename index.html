@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css	">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	<script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">	
+<div class="bg-primary text-center pb-1 mb-2">
+<h1 class="text-white">Куда уходит лето?</h1>
+</div>
+</div>
+<div class="container">
+	<div class="row">	
+	<div class="col-xl-8 col-lg-8 col-md-8 col-sd-12">	
+		<div class="bg-info text-center text-white">	
+			Сегодня:
+		</div>
+		<div id="ddmmyy" class="bg-light text-center">	
+		</div>
+		<div class="mt-5">
+		<table class="table">
+		  <caption>Статистика</caption>
+		  <thead>
+		    <tr>
+		      <th scope="col"></th>
+		      <th scope="col">Прошло</th>
+		      <th scope="col">Осталось</th>
+			</tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">Дней</th>
+		      <td id="dl"></td>
+		      <td id="dp"></td>
+		      
+		    </tr>
+		    <tr>
+		      <th scope="row">Часов</th>
+		      <td id="hl"></td>
+		      <td id="hp"></td>
+		      
+		    </tr>
+		    <tr>
+		      <th scope="row">Минут</th>
+		      <td id="ml"></td>
+		      <td id="mp"></td>   
+		    </tr>
+
+			<tr>
+		      <th scope="row">Секунд</th>
+		      <td id="sl"></td>
+		      <td id="sp"></td>   
+		    </tr>
+		  </tbody>
+		</table>
+		</div>
+	</div>
+	<div class="col-xl-4 col-lg-4 col-md-4 col-sd-12">
+		<canvas id="myChart" height="80" width="20"></canvas>
+	</div>
+	</div>	
+	<div class="row">
+		<div class="col-xl-2 ">		
+		</div>	
+		<div class="col-xl-8 ">	
+			<figure class="text-left shadow p-3 mb-5 bg-white rounded">
+			  <blockquote class="blockquote bg-light">
+			    <p>Помните — времени мало! </p>
+			    <p>Не тратьте его, чтобы жить чьей-то чужой жизнью. Не слушайте никого. Шум чужих мнений не должен заглушать ваш внутренний голос. 
+			    <p>Слушайте только свое Сердце и интуицию. Они откуда-то точно знают, кем вам быть и что делать.</p>
+			    <p>А все остальное — не важно, просто не важно…</p>
+			  </blockquote>
+			  <figcaption class="blockquote-footer pt-2">
+			    Стив Джобс <cite title="Source Title"> --- Жизнь великих людей</cite>
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-xl-2">	
+		</div>
+	</div>
+	<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div id="p01"class="view overlay z-depth-1-half">
+          <img src="img/120.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="img/074.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="img/108.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="img/004.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="img/005.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="img/006.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="http://www.putped.edu.ua/"> Путивльський педагогічний фаховий коледж ім. С.В.Руднєва</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+</body>
+</html>
